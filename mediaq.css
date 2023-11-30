@@ -1,0 +1,24 @@
+/*smartphones (600px para baixo)*/
+@media only screen and (max-width: 600px){
+	body{
+		background: blue;
+	}
+}
+/*dispositivos largos(tablets e smartphones - acima de 600px)*/
+@media only screen and (min-width: 600px){
+	body{
+		background: green;
+	}
+}
+/*dispositivos medios - acima de 768px*/
+@media only screen and (min-width: 768px){
+	body{
+		background: yellow;
+	}
+}
+/*dispositivos maiores(laptops e dasktops - acima de 992px)*/
+@media only screen and (min-width: 992px){
+	body{
+		background: pink;
+	}
+}

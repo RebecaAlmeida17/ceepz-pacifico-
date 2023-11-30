@@ -1,0 +1,53 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ODS FORM</title>
+	<link rel="stylesheet" href="ods form.css">
+</head>
+<body>
+<header> 
+<section>
+<h1>Sua ajuda pode fazer muita diferença para que juntos possamos enfrentar os desafios de desenvolvimento no Brasil e no mundo.</h1> 
+</section>
+<aside>
+<h2>Preencha o formulário com os dados solicitados para fazer uma doação:)</h2>
+</aside>
+</header>
+<form>
+<main>
+	<section>
+	<h3>NOME COMPLETO:</h3>
+	<input type="text" placeholder="NOME" required>
+	<h3>E-MAIL:</h3>
+	<input type="email" placeholder="E-MAIL" required>
+	<h3>NÚMERO DE TELEFONE PARA CONTATO:</h3>
+	<input type="tel" placeholder="TELEFONE" maxlength="11" required>
+	<h3>QUAL VALOR VOCÊ GOSTARIA DE DOAR?</h3>
+	<input type="number" placeholder="R$">
+	</section>
+	<article>
+	<h3>COMO VOCÊ DESEJA DOAR?</h3>
+	<input type="radio" name="re">CARTÃO DE CRÉDITO
+	<input type="radio" name="re">CARTÃO DE DÉBITO
+	<h5>DIGITE O NÚMERO DO CARTÃO:</h5>
+	<input type="text" placeholder="12 NÚMEROS DO CARTÃO" maxlength="12" >
+	<h5>DIGITE A SENHA:</h5>
+	<input type="password" placeholder="SENHA" maxlength="6">
+	<br>
+	<br>
+	<input type="radio" name="re">BOLETO BANCÁRIO
+	<br>
+	<br>
+	<input type="submit" value="GERAR BOLETO">
+	</article>
+	<aside>
+	<input type="submit" id="bum" value="CONFIRMAR OS DADOS">
+	<br>
+	<br>
+	<input type="reset" id="bdois" value="CANCELAR">
+	</aside>
+</main>
+</form>
+</body>
+</html>

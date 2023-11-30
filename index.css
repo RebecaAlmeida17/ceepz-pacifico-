@@ -1,0 +1,59 @@
+*{
+	font-family:Comic Sans MS;
+}
+body{	
+	
+	background-image: url("dia.jpg");
+	background-size: 1500px;
+}
+div{
+	display: flex;
+	justify-content: center;
+}
+header{
+	padding: 5px;
+	display:flex;
+	justify-content:flex-start;
+}
+article{
+	margin-top: 50px;
+}
+h1{
+	margin-left: 130px;
+	margin-top: -40px ;
+	color: white;
+	padding: 20px;	
+}
+h2{
+	margin-top: -30px;
+	color: white;
+	margin-bottom: 40px;
+}
+h3{
+	font-size: 20px;
+	color: white;
+	font-family: verdana;		
+}
+a:hover {
+	color: blue;
+}	
+#lala{
+	margin-left: 100px;
+	background-color: #97ccda;
+	padding: 20px;
+	border-radius: 30px 10px 30px 10px;
+	font-size: 21px;
+	margin-right: 20%;
+	display: flex;
+	justify-content: center;
+	
+}
+.box-1{
+	margin-top: 60px;
+	grid-columns: 1/1;
+	border-radius: 80px 50px 100px 90px;
+	padding: 30px;
+	display: flex;
+	justify-content: center;
+}
+	
